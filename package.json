@@ -1,0 +1,14 @@
+{
+  "name": "ejerciciosV1.01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "parcel": "^2.12.0"
+  }
+}

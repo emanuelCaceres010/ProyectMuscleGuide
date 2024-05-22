@@ -1,0 +1,251 @@
+body, .root {
+  height: 100vh;
+  margin: 0;
+}
+
+.container-principal {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.header {
+  background-color: gold;
+  border: 2px solid gold;
+  border-bottom-width: 5px;
+  justify-content: space-around;
+  height: 80px;
+  display: flex;
+}
+
+.contenedor-logo {
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+  height: 80px;
+  display: flex;
+}
+
+.img-logo {
+  background-image: url("icons8-dumbbell-48.8e8b9043.png");
+  width: 48px;
+  height: 48px;
+  margin-left: 17px;
+}
+
+.contenedor-menu {
+  justify-content: right;
+  align-items: center;
+  width: 50%;
+  height: 80px;
+  display: flex;
+}
+
+.boton-menu {
+  background-color: gold;
+  background-image: url("icons8-menú-50.63abbd7f.png");
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 17px;
+  display: flex;
+}
+
+.boton-menu:active {
+  background-color: #d7b700;
+}
+
+.inicio {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+}
+
+.contenedor-login {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 15px;
+  width: 80%;
+  height: 450px;
+  margin-top: 15%;
+}
+
+.contenedor-saludo {
+  text-align: center;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 70px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  display: flex;
+}
+
+.estrellas-1 {
+  background-image: url("icons8-estrellas-48.9fb2bbe2.png");
+  width: 48px;
+  height: 48px;
+  transform: scaleX(-1);
+}
+
+.estrellas-2 {
+  background-image: url("icons8-estrellas-48.9fb2bbe2.png");
+  width: 48px;
+  height: 48px;
+}
+
+.contenedor-indicaciones {
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  margin-top: 15px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.contenedor-email {
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 30px;
+  margin-top: 25px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+}
+
+.contenedor-input-email {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.input-email {
+  text-align: center;
+  background-color: #f8f7f7;
+  border: 1px solid #d7d6d6;
+  border-radius: 10px;
+  width: 80%;
+  height: 35px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.contenedor-nombre {
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+}
+
+.contenedor-input-nombre-de-usuario {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.input-nombre-de-usuario {
+  text-align: center;
+  background-color: #f8f7f7;
+  border: 1px solid #d7d6d6;
+  border-radius: 10px;
+  width: 80%;
+  height: 35px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.contenedor-contraseña {
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  height: 30px;
+  margin-top: 25px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+}
+
+.contenedor-input-contaseña {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.input-contraseña {
+  text-align: center;
+  background-color: #f8f7f7;
+  border: 1px solid #d7d6d6;
+  border-radius: 10px;
+  width: 80%;
+  height: 35px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.contenedor-boton-crear {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 95px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.crear {
+  background-color: gold;
+  border: 2px solid #d1b100;
+  border-radius: 10px;
+  width: 75%;
+  height: 50px;
+  margin-left: 2.5px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.crear:active {
+  background-color: #d1b100;
+}
+
+.contenedor-pregunta-signup {
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  display: flex;
+}
+
+.contenedor-secundario-signup {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.boton-signup {
+  background-color: gold;
+  border-color: gold;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 15px;
+}
+/*# sourceMappingURL=index.4d8db93c.css.map */

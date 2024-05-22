@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+}
+
+.header{
+    border: solid 2px rgb(175, 149, 1);
+    border-bottom:solid 5px rgb(175, 149, 1);
+    height: 80px;
+    background-color: gold;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-logo{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.img-logo{
+    margin-left: 17px;
+    width: 48px;
+    height: 48px;
+    background-image: url("../../imgs/icons8-dumbbell-48.png");
+}
+
+.contenedor-menu{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+.boton-menu{
+    width: 50px;
+    height: 50px;
+    background-color: gold;
+    border: none;
+    margin-right: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../imgs/icons8-menú-50.png");
+}
+
+.boton-menu:active{
+    background-color:rgb(175, 149, 1) ;
+}
+
+.main-content{
+    width: 99.2%;
+}
+
+.contenedor-saludo-inicial{
+    font-size: 30px;
+    font-weight: 700;
+    font-family:"Roboto";
+    text-align: center;
+    line-height: 250px;
+    height: 30vh;
+}
+.contenedor-primario-indicaciones{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-indicaciones{
+    font-size: 27px;
+    font-weight: 700;
+    font-family:"Roboto";
+    text-align: center;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: rgb(142, 141, 141);
+}
+
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    background-color: gold;
+    width: 250px;
+    height: 50px;
+    border: solid 2px rgb(174, 148, 0);
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.boton:active{
+    background-color: rgb(175, 149, 1);
+}

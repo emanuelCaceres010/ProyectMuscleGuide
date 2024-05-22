@@ -1,0 +1,690 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+body {
+  margin: 0;
+  height:auto;
+}
+
+.root{
+  height:auto;
+}
+
+.header {
+  background-color: gold;
+  border: 2px solid gold;
+  border-bottom-width: 5px;
+  justify-content: space-around;
+  height: 80px;
+  display: flex;
+}
+
+.contenedor-logo {
+  justify-content: left;
+  align-items: center;
+  width: 50%;
+  height: 80px;
+  display: flex;
+}
+
+.img-logo {
+  background-image: url("icons8-dumbbell-48.8e8b9043.png");
+  width: 48px;
+  height: 48px;
+  margin-left: 17px;
+}
+
+.contenedor-menu {
+  justify-content: right;
+  align-items: center;
+  width: 50%;
+  height: 80px;
+  display: flex;
+}
+
+.boton-menu {
+  background-color: gold;
+  background-image: url("icons8-menú-50.63abbd7f.png");
+  border: none;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 17px;
+  display: flex;
+}
+
+.boton-menu:active {
+  background-color: #af9501;
+}
+
+.main-content {
+  width: 99.2%;
+  height: auto;
+  pointer-events: none;
+}
+
+.main-data{
+height: auto;
+}
+
+.contenedor-saludo-inicial {
+  text-align: center;
+  height: 30vh;
+  font-family: Roboto;
+  font-size:5.5vw;
+  font-weight: 700;
+  line-height: 250px;
+  white-space: nowrap;
+}
+
+.contenedor-primario-indicaciones {
+  justify-content: center;
+  display: flex;
+}
+
+.contenedor-indicaciones {
+  text-align: center;
+  text-align: center;
+  color: #8e8d8d;
+  justify-content: center;
+  width: 50%;
+  height: 40vh;
+  font-family: Roboto;
+  font-size: 6vw;
+  font-weight: 700;
+  display: flex;
+}
+
+.contenedor-boton {
+  justify-content: center;
+  display: flex;
+}
+
+.boton {
+  background-color: gold;
+  border: 2px solid #ae9400;
+  border-radius: 6px;
+  width: 250px;
+  height: 50px;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.boton:active {
+  background-color: #af9501;
+}
+
+.contenedor-fecha{
+  width: 99.8%;
+  height: 8vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.fecha{
+  font-family: Roboto;
+  font-size: 4vh;
+  font-weight: 700;
+  color: rgb(19, 19, 19);
+  height: 4vh;
+  margin-left: 5vw;
+}
+
+.contenedor-agregar-ejercicio-indicaciones{
+  width: 99.8%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 12vh;
+  margin-bottom: 15vh;
+}
+
+.indicaciones-agregar-ejercicio{
+  font-family: Roboto;
+  font-size: 4vh;
+  font-weight: 700;
+  color: rgb(123, 123, 123);
+  height: 4vh;
+  width: 30%;
+
+}
+.indicaciones-flecha{
+  font-size: 5vh;
+  font-weight: 900;
+  color: rgb(123, 123, 123);
+}
+
+.contenedor-boton-agregar-ejercicios{
+  width: 99.8%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 3vh;
+}
+
+.boton-agregar-ejercicios{
+  width: 85vw;
+  font-family: Roboto;
+  font-size: 3vh;
+  color: rgb(19, 19, 19);
+  height: 5.5vh;
+  background-color: gold;
+  border: solid 2px rgb(224, 190, 0);
+  border-radius: 8px;
+}
+
+.contenedor-buscador{
+  position: absolute;
+  left: 5%;
+  margin-top: 10px;
+  border: solid 1px;
+  width: 90%;
+  border-radius: 7px;
+  background-color: gold;
+  border-color:rgb(212, 180, 0);
+  height: 8.5vh;
+  height: auto;
+}
+
+.contenedor-primario{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-right: 2vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+}
+
+.contenedor-secundario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.label-buscador{
+  background-image: url("icons8-buscar-48.png");
+  width: 48px;
+  height: 48px;
+  margin-top: -1px;
+}
+
+.input-buscador{
+  border-radius: 5px;
+  width: 75%;
+  height: 5vh;
+  font-family: Roboto;
+  font-size: 3vh;
+  font-weight: 500;
+  color: rgb(19, 19, 19);
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid 1px  rgb(212, 181, 0);
+}
+
+.contenedor-botones{
+  position:fixed;
+  z-index: 9999;
+  bottom:0;
+  width: 99.9%;
+  height: 8vh;
+  background-color: gold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.boton-home{
+  width: 30%;
+  height: 6vh;
+  background-color: rgb(237, 202, 0);
+  background-image: url("icons8-casa-50.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+}
+.boton-home:active{
+  background-color: rgb(222, 188, 1);
+}
+.boton-estadisticas{
+  width: 30%;
+  height: 6vh;
+  background-color: rgb(237, 202, 0);
+  background-image: url("icons8-estadísticas-32.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+}
+.boton-estadisticas:active{
+  background-color: rgb(222, 188, 1);
+}
+
+.boton-tiempo-recuperacion{
+  width: 30%;
+  height: 6vh;
+  background-color: rgb(237, 202, 0);
+  background-image: url("icons8-pecho-50.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+}
+.boton-tiempo-recuperacion:active{
+  background-color: rgb(222, 188, 1);
+}
+
+.separador-de-base{
+  width: 99.9%;
+  height: 8.5vh;
+}
+
+.searchResults {
+  margin-top: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height:58vh;
+  overflow-y: auto;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result {
+  width: 45%;
+  padding-top: 10.5px;
+  margin:5px;
+  height: 50vw;
+  border: none;
+  border-bottom: solid 2px rgb(216, 215, 215);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+.result-image{
+  width: 100%;
+  height: 52%;
+  display: flex;
+  justify-content: center;
+}
+.excercise-image{
+  background-color: none;
+  border-radius: 8%;
+  width: 90%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.result-title{
+  height: 6.5vh;
+  font-size: 4.5vw;
+  text-align: center;
+  margin-top: 7px;
+  font-weight: 700;
+}
+.result-description{
+  height: 6.5vh;
+  font-size: 4vw;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+.result:hover {
+  background-color: #f0f0f0;
+}
+
+.contenedor-ejercicios-main{
+  width: 99.8%;
+  display: none;
+  margin-top: 12vh;
+  height:auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.ejercicios-main-container{
+  width: 90%;
+  margin-bottom: 12px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ejercicios-main{
+  width: 100%;
+  height: 50px;
+  border: solid 1px rgb(171, 171, 171);
+  border-radius: 5px;
+  border-bottom: 4px solid rgb(171, 171, 171);
+  border-left: 5px solid rgb(178, 178, 178);
+  background-color: rgb(246, 244, 244);
+  font-size: 3.5vh;
+}
+.ejercicios-main:active{
+  background-color: rgb(234, 234, 234);
+}
+
+.ejercicio-expandable{
+  width: 98.8%;
+  height: auto;
+  border: solid 1px rgb(171, 171, 171);
+  border-radius: 5px;
+  border-top: none;
+  border-bottom: 2px solid rgb(171, 171, 171);
+  border-left: 2px solid rgb(178, 178, 178);
+  border-right: 2px solid rgb(178, 178, 178);
+  background-color: rgb(255, 255, 255);
+  font-size: 3.5vh;
+  margin-left: 1px;
+  display: block;
+}
+
+.contenedor-serie{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 4vh;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.contenedor-datos-de-serie{
+  font-family: Roboto;
+  text-align: left;
+  font-size: 3vh;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.contenedor-input-repeticiones{
+  padding-top: 15px;
+  display: flex;
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.contenedor-input-peso{
+  margin-top: 15px;
+  display: flex;
+  height: auto;
+  justify-content:space-evenly;
+}
+
+.repeticiones-texto{
+  position: sticky;
+  margin-right: -3px;
+}
+.input-repeticiones{
+  height: 25px;
+  border: solid 2px;
+  border-radius:3px ;
+  border-color: rgb(229, 195, 0);
+  margin-left: 2px;
+  position: sticky;
+}
+
+.peso-texto{
+  position: sticky;
+  margin-right: 25px;
+}
+.input-peso{
+  height: 25px;
+  border: solid 2px;
+  border-radius:3px;
+  border-color: rgb(229, 195, 0);
+  margin-left: 38px;
+  position: sticky;
+}
+
+.contenedor-boton-siguiente-serie{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.boton-siguiente-serie{
+  background-color: gold;
+  border: solid 2px;
+  border-color: rgb(255, 187, 0);
+  border-radius: 5px;
+  width:55vw;
+  height: 5vh;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 3vh;
+}
+
+.contenedor-boton-ejercicio-terminado{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: 20px;
+}
+
+.boton-ejercicio-terminado{
+  width: 100%;
+  font-size: 4vh;
+  font-family: Roboto;
+  font-weight: 500;
+  background-color: rgb(107, 247, 107);
+  border: solid 2px;
+  border-color: rgb(58, 229, 58);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  height: 45px;
+}
+
+.contenedor-para-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.contenedor-principal{
+  width: 300px;
+  height: 800px;
+  background-image: url("./musculos-frontales-1-prueba-2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 3px;
+  pointer-events: none;
+}
+.pectoral{
+  pointer-events: all;
+}
+
+.svg-pectoral{
+  width: 188px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 57.5px;
+  pointer-events: none;
+}
+.borde-pectoral{
+  width: 95px;
+  height: 200px;
+  pointer-events: none;
+}
+.svg-hombros{
+  width: 278px;
+  height: auto;
+  position:relative;
+  right:-12px;
+  top: -155px;
+  pointer-events: none;
+}
+.hombros{
+  pointer-events: all;
+}
+
+
+.svg-trapecios{
+  width: 152px;
+  height: auto;
+  position:relative;
+  right:-75px;
+  top: -264px; 
+}
+.trapecio{
+  pointer-events: all;
+}
+
+
+.svg-biceps{
+  width: 282px;
+  height: auto;
+  position:relative;
+  right:-10px;
+  top: -220px;
+  pointer-events: none;
+}
+.bicep{
+  pointer-events: all;
+}
+
+
+.svg-antebrazo-anterior{
+  width: 291px;
+  height: auto;
+  position:relative;
+  right:-5px;
+  top: -255px;
+  pointer-events: none;
+}
+.antebrazo-anterior{
+  pointer-events: all;
+}
+
+
+.svg-antebrazo-posterior{
+  width: 250px;
+  height: auto;
+  position:relative;
+  right:-26.5px;
+  top: -388px;
+  pointer-events: none;
+}
+.antebrazo-posterior{
+  pointer-events: all;
+}
+
+
+.svg-oblicuos{
+  width: 181px;
+  height: auto;
+  position:relative;
+  right:-61px;
+  top: -587px;
+  pointer-events: none;
+}
+.oblicuos{
+  pointer-events: all;
+}
+
+
+.svg-abs{
+  width: 89px;
+  height: auto;
+  position:relative;
+  right:78px;
+  top: -581px;
+  pointer-events: none;
+}
+.abs{
+  pointer-events: all;
+}
+
+
+.svg-puños{
+  width: 276px;
+  height: auto;
+  position:relative;
+  right:-13px;
+  top: -554px;
+  pointer-events: none;
+}
+
+.tren-inferior-frontal{
+  width: 266px;
+  height: auto;
+  position:relative;
+  top: -654.5px;
+  left: 17.5px;
+  z-index: 2;
+  stroke-width: 50px rgb(251, 251, 251);
+}
+
+.data-card{
+  width: 150px;
+  height: 190px;
+  border: solid 2px rgb(39, 39, 39);
+  border-radius: 5px;
+  position: fixed;
+  top:35%;
+  right: 30%;
+  background-color: white;
+  z-index: 3;
+  font-family: Roboto;
+}
+
+.contenedor-boton-cerrar-card{
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.boton-cerrar-card{
+  border: none;
+  background-color:white;
+  font-weight: 700;
+}
+
+.contenedor-tiempo-restante-texto{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.tiempo-restante-texto{
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.contenedor-tiempo-restante{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+/*# sourceMappingURL=index.da4dfa51.css.map */
